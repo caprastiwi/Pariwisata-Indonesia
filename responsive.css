@@ -1,0 +1,156 @@
+/* 
+@media all and (max-width: 1000px) {
+  
+  .container {
+    max-width: 1000px;
+    padding: 0 auto;
+    margin: 0 auto;
+  }
+
+  .category-wrapper {
+    padding-bottom: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-right: 10%;
+    margin-left: 10%;
+    background-color: #E5E3C9;
+
+  }
+
+  .category img:hover {
+    opacity: 0.8;
+  }
+
+  .category {
+    position: relative;
+    float: left;
+    margin-top: 10px;
+  }
+
+  .category p {
+    padding: 0px;
+    width: 100%;
+    color: black;
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .category img {
+    width: 50px;
+    height: 70px;
+    border-radius: 10px;
+    opacity: 0.7;
+    margin-right: 4px;
+  }
+
+
+
+  .title {
+    letter-spacing: 5px;
+    font-size: 35px;
+    padding: 10px;
+    margin-top: 10px;
+
+  }
+
+  .about-wrapper {
+    margin-right: 10%;
+    margin-left: 10%;
+    background-color: #E5E3C9;
+  }
+
+  .about {
+    padding-top: 100px;
+    text-align: center;
+  }
+
+  .img-about img {
+    width: 100%;
+    float: left;
+    padding-bottom:30px;
+  }
+
+  .desc {
+    margin-top: 20px;
+    padding-bottom: 65px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 20px;
+    text-align: center;
+  }
+
+}
+
+@media all and (max-width: 670px) {
+ .container {
+   max-width: 1170px;
+   padding: 0 auto;
+   margin: 0 auto;
+ }
+
+ .category-wrapper {
+   padding-bottom: 80px;
+   padding-right: 5%;
+   margin-right: 10%;
+   background-color: #E5E3C9;
+
+ }
+
+ .category img:hover {
+   opacity: 0.8;
+ }
+
+ .category {
+   float: left;
+   margin-top: 10px;
+ }
+
+ .category p {
+   width: 100%;
+   font-size: 10px;
+   color: black;
+   text-align: left;
+ }
+
+ .category img {
+   width: 72px;
+   height: 128px;
+   border-radius: 10px;
+   opacity: 0.6;
+   margin-right: 13px;
+ }
+
+ .title {
+   letter-spacing: 5px;
+   font-size: 35px;
+   padding: 10px;
+   margin-top: 10px;
+
+ }
+
+ .about-wrapper {
+   margin-right: 10%;
+   margin-left: 10%;
+   background-color: #E5E3C9;
+ }
+
+ .about {
+   padding-top: 100px;
+   text-align: center;
+ }
+
+ .img-about img {
+   width: 100%;
+   float: left;
+ }
+
+ .desc {
+   margin-top: 30px;
+   padding-bottom: 65px;
+   padding-left: 5px;
+   padding-right: 5px;
+   font-size: 15px;
+   text-align: center;
+ }
+
+} */

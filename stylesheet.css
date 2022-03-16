@@ -1,0 +1,381 @@
+/* Mulai code Anda dari baris terakhir */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+  font-family: 'Caladea';
+}
+a {
+  text-decoration: none;
+}
+/*-----Header:  Dwi-----*/
+.logo a {
+  font-size: 40px;
+  font-weight: 800;
+  float: left;
+  font-family: 'Caladea';
+  letter-spacing: 7px;
+  color: #789395;
+}
+.menu {
+  float: right;
+}
+nav {
+  width: 100%;
+  display: flex;
+  line-height: 80px;
+  position: fixed;
+  top: 0;
+  background: #E5E3C9;
+  z-index: 10;
+  padding-left:20px;
+}
+nav ul {
+  list-style-type: none;
+  margin-right: 30px;
+  padding: 0;
+  overflow: hidden;
+}
+nav ul li {
+  float: left;
+}
+nav ul li a {
+  color: #789395;
+  font-weight: bold;
+  text-align: center;
+  padding: 0px 16px 0px 16px;
+  font-family: 'Caladea';
+  letter-spacing: 3px;
+}
+nav ul li a:hover {
+  text-decoration: underline;
+}
+a.tbl-subscribe {
+  border-color: #789395;
+  border-style: solid;
+  border-radius: 9px;
+  margin: 20px;
+  padding: 10px 15px;
+  color: #789395;
+  cursor: pointer;
+  font-weight: bold;
+}
+a.tbl-subscribe:hover {
+  text-decoration: none;
+  background-color: #789395;
+  color: #E5E3C9;
+}
+.top-wrapper {
+  padding-top: 180px;
+  padding-bottom: 100px;
+  margin-top: 90px;
+  margin-bottom: 10px;
+  background-image: url(https://media.cntraveler.com/photos/576af69b4a3399cb31f9da38/master/w_1600%2Cc_limit/Raja-Ampat-GettyImages-497311417.jpg);
+  background-size: cover;
+  color: #789395;
+  text-align: center;
+}
+.top-wrapper h1 {
+  font-size: 45px;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+  font-family: 'Caladea';
+  letter-spacing: 8px;
+}
+.top-wrapper p {
+  margin-bottom: 3px;
+  font-family: 'Caladea';
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+.box {
+  width: 10%;
+  height: 4px;
+  background-color: #789395;
+  display: inline-block;
+  border-radius: 10px;
+}
+/*-----Popular Destinations:  Carlina-----*/
+.popular-destination {
+  padding-top: 20px;
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-top: 10px;
+  background-color: #E5E3C9;
+  height: 250px;
+}
+.destination-1 {
+  margin-top:40px;
+  margin-right: 40px;
+}
+.destination {
+  float: left;
+}
+.destination img {
+  width: 220px;
+  height: 180px;
+  border-radius: 10px;
+  float: center;
+  margin-right: 25px;
+}
+.destination p {
+  text-align: center;
+  font-family: 'Caladea';
+  margin-top: 10px;
+  color: #789395;
+  font-weight: bold;
+}
+/*-----Categories:  Bunga-----*/
+.category img:hover{
+  opacity:0.8;
+}
+.category {
+  position: relative;
+  float:left;
+  margin-top:30px;
+}
+.category p {
+  padding:0px;
+  font-family: 'Caladea';
+  width: 100%;
+  color: #789395;
+  text-align: center;
+  letter-spacing: 3px;  
+}
+.category img{
+  width:90px;
+  height:160px;
+  border-radius:10px;
+  opacity:0.6;
+  margin-right:10px;
+}
+.title{
+  letter-spacing: 5px;
+  font-size:35px;
+  padding:10px;
+  margin-top:10px;
+}
+/*-----About:  Bunga-----*/
+.about{
+  padding-top: 100px ;
+  text-align:center;
+}
+.img-about img {
+  width: 50%;
+  float: left;
+}
+.desc {
+  font-family: 'Caladea';
+  margin-top: 40px;
+  margin-bottom: 120px;
+  padding-left: 650px;
+  padding-right: 5px;
+  font-size: 20px;
+  text-align: center;
+  color:#789395;
+  letter-spacing: 1px;
+}
+.wrapper {
+  width: 100%;
+  position: relative;
+}
+.img-about h1{
+  font-family: 'Caladea';
+  font-size: 40px;
+  color:#789395;
+  letter-spacing: 4px;
+  padding-top:100px;
+}
+/*-----Team: Chairunnisyah*/
+#team {
+  position: relative;
+  margin: 0 auto;
+  max-width: 100%;
+  background-color: #b4cfb0;
+  min-height: 100vh;
+  padding: 50px 15px;
+}
+.all {
+  position: relative;
+  margin: 0 auto;
+  max-width: 100%;
+  background-color: #b4cfb0;
+  min-height: 250px;
+  padding: 50px 15px;
+}
+.container {
+  text-align: center;
+}
+h1 {
+  font-family: 'Caladea';
+  font-size: 40px;
+  color:#789395;
+  letter-spacing: 4px;
+}
+.team h1 {
+  font-family: 'Caladea';
+  font-size: 40px;
+  color: #789395;
+  letter-spacing: 4px;
+}
+.team h1::after {
+  content: '';
+  background: #789395;
+  display: block;
+  height: 3px;
+  width: 170px;
+  margin: 20px auto 5px;
+}
+.team {
+  position: relative;
+  padding-top: 30px;
+}
+.profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.profile-2 {
+  display: flex;
+  padding-top: 25px;
+  justify-content: center;
+  align-items: center;
+}
+.content {
+  height: 350px;
+  width: 300px;
+  margin: 20px;
+  position: relative;
+  background: #fff;
+  border-radius: 30px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+  transition: 0.5s;
+}
+.team:hover .content {
+  transform: scale(0.9);
+  opacity: 0.5;
+}
+.team .content:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+  opacity: 1;
+}
+.profile-img {
+  height: 110px;
+  width: 110px;
+  padding: 5px 5px;
+  margin-top: 50px;
+  margin-left: 95px;
+  border-radius: 50%;
+  background: #b4cfb0;
+}
+.profile-img img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+.details {
+  padding-top: 20px;
+}
+.details h5 {
+  font-size: 24px;
+  padding-bottom: 5px;
+  color: #789395;
+}
+.social {
+  padding-top: 25px;
+  display: flex;
+  padding: 0 60px;
+}
+.social-img {
+  width: 40px;
+  height: 40px;
+  margin: 20px 10px;
+  padding-top: 10px;
+  background-color: #e2ede0;
+  border-radius: 50%;
+  transition: 0.5s;
+}
+.social-img:hover {
+  background-color: #fff;
+  cursor: pointer;
+  transition: 0.5s;
+  box-shadow: 0 0 10px #3C6336;
+}
+.social img {
+  width: 20px;
+  height: 20px;
+}
+/*-----Footer:  Dio-----*/
+.footer-container {
+  background-color:red;
+  padding-bottom: 10px;
+} 
+.footer {
+  width:100%;
+  height:300px;
+  background-color:#26747E;
+  background-image: url(latar.jpg);
+  background-size: 1350px 500px;
+  color:black;
+  display:flex;
+  justify-content: center;
+  flex-wrap:wrap;
+  margin:0 auto;
+}
+.footer p{
+  margin:2px;
+}
+.footer-heading {
+  display:flex;
+  flex-direction: column;
+  margin-right: 100px;
+}
+.footer-heading h2 {
+  padding-bottom: 15px;
+  margin-bottom:3px;
+}
+.footer-heading p {
+  color:white;
+}
+.footer-heading a {
+  color:white;
+  text-decoration: none;
+  margin-bottom:10px;
+}
+.footer-heading a:hover {
+  color:rgb(255, 0, 0);
+  transition:all 0,5s;
+}
+.footer-email-form h2 {
+  margin-bottom: 10px;
+}
+#footer-email {
+  width:250px;
+  height:40px;
+  border-bottom: 4px;
+  outline:none;
+  border:none;
+  padding-left:5px;
+  font-size:10px;
+  margin-bottom: 10px;
+}
+#footer-email::placeholder {
+  color:black;
+}
+#footer-email-btn:hover {
+  width: 50px;
+  height:30px;
+  border-radius: 4px;
+  background-color: red;
+  outline:none;
+  border:none;
+  color:#fff;
+  font-size:20px;
+}
+#footer-email-btn {
+  cursor:pointer;
+  background-color: red;
+  transition: all 0.5s ease-out;
+}
